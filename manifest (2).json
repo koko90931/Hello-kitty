@@ -1,0 +1,24 @@
+{
+    "id": "hello-kitty-addon",
+    "version": "1.0.0",
+    "name": "Hello Kitty Supercute Adventures",
+    "description": "Watch Hello Kitty and Friends Supercute Adventures directly in Stremio!",
+    "resources": [
+        "catalog",
+        "stream",
+        "meta"
+    ],
+    "types": [
+        "series"
+    ],
+    "catalogs": [
+        {
+            "type": "series",
+            "id": "hello-kitty-catalog",
+            "name": "Hello Kitty Supercute Adventures"
+        }
+    ],
+    "idPrefixes": [
+        "hk_episodes"
+    ]
+}
